@@ -1,0 +1,83 @@
+Aug 11 16:45:47 user-dev sshd[4097]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user
+Aug 11 16:45:49 user-dev sshd[4097]: Failed password for user from 192.168.122.146 port 59180 ssh2
+Aug 11 16:45:58 user-dev sshd[4097]: message repeated 2 times: [ Failed password for user from 192.168.122.146 port 59180 ssh2]
+Aug 11 16:46:00 user-dev sshd[4097]: Connection closed by authenticating user user 192.168.122.146 port 59180 [preauth]
+Aug 11 16:46:00 user-dev sshd[4097]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user
+Aug 11 16:46:04 user-dev sshd[4100]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user
+Aug 11 16:46:06 user-dev sshd[4100]: Failed password for user from 192.168.122.146 port 54636 ssh2
+Aug 11 16:46:17 user-dev sshd[4100]: message repeated 2 times: [ Failed password for user from 192.168.122.146 port 54636 ssh2]
+Aug 11 16:46:17 user-dev sshd[4100]: Connection closed by authenticating user user 192.168.122.146 port 54636 [preauth]
+Aug 11 16:46:17 user-dev sshd[4100]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user
+Aug 11 16:46:21 user-dev sshd[4103]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user
+Aug 11 16:46:23 user-dev sshd[4103]: Failed password for user from 192.168.122.146 port 56824 ssh2
+Aug 11 16:46:32 user-dev sshd[4103]: message repeated 2 times: [ Failed password for user from 192.168.122.146 port 56824 ssh2]
+Aug 11 16:46:33 user-dev sshd[4103]: Connection closed by authenticating user user 192.168.122.146 port 56824 [preauth]
+Aug 11 16:46:33 user-dev sshd[4103]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user
+Aug 11 16:46:38 user-dev sshd[4106]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user
+Aug 11 16:46:40 user-dev sshd[4106]: Failed password for user from 192.168.122.146 port 43292 ssh2
+Aug 11 16:46:57 user-dev sshd[4106]: message repeated 2 times: [ Failed password for user from 192.168.122.146 port 43292 ssh2]
+Aug 11 16:46:58 user-dev sshd[4106]: Connection closed by authenticating user user 192.168.122.146 port 43292 [preauth]
+Aug 11 16:46:58 user-dev sshd[4106]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user
+Aug 11 16:47:24 user-dev sshd[4109]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user
+Aug 11 16:47:26 user-dev sshd[4109]: Failed password for user from 192.168.122.146 port 35738 ssh2
+Aug 11 16:47:35 user-dev sshd[4109]: message repeated 2 times: [ Failed password for user from 192.168.122.146 port 35738 ssh2]
+Aug 11 16:47:36 user-dev sshd[4109]: Connection closed by authenticating user user 192.168.122.146 port 35738 [preauth]
+Aug 11 16:47:36 user-dev sshd[4109]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user
+Aug 11 16:54:33 user-dev sshd[4131]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user
+Aug 11 16:54:35 user-dev sshd[4131]: Failed password for user from 192.168.122.146 port 47642 ssh2
+Aug 11 16:54:44 user-dev sshd[4131]: message repeated 2 times: [ Failed password for user from 192.168.122.146 port 47642 ssh2]
+Aug 11 16:54:45 user-dev sshd[4131]: Connection closed by authenticating user user 192.168.122.146 port 47642 [preauth]
+Aug 11 16:54:45 user-dev sshd[4131]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user
+Aug 11 16:54:52 user-dev sshd[4134]: Invalid user user1 from 192.168.122.146 port 52390
+Aug 11 16:54:53 user-dev sshd[4134]: pam_unix(sshd:auth): check pass; user unknown
+Aug 11 16:54:53 user-dev sshd[4134]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146 
+Aug 11 16:54:55 user-dev sshd[4134]: Failed password for invalid user user1 from 192.168.122.146 port 52390 ssh2
+Aug 11 16:54:56 user-dev sshd[4134]: pam_unix(sshd:auth): check pass; user unknown
+Aug 11 16:54:59 user-dev sshd[4134]: Failed password for invalid user user1 from 192.168.122.146 port 52390 ssh2
+Aug 11 16:55:01 user-dev sshd[4134]: pam_unix(sshd:auth): check pass; user unknown
+Aug 11 16:55:04 user-dev sshd[4134]: Failed password for invalid user user1 from 192.168.122.146 port 52390 ssh2
+Aug 11 16:55:05 user-dev sshd[4134]: Connection closed by invalid user user1 192.168.122.146 port 52390 [preauth]
+Aug 11 16:55:05 user-dev sshd[4134]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146 
+Aug 11 16:55:11 user-dev sshd[4137]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user2
+Aug 11 16:55:13 user-dev sshd[4137]: Failed password for user2 from 192.168.122.146 port 38674 ssh2
+Aug 11 16:55:24 user-dev sshd[4137]: message repeated 2 times: [ Failed password for user2 from 192.168.122.146 port 38674 ssh2]
+Aug 11 16:55:25 user-dev sshd[4137]: Connection closed by authenticating user user2 192.168.122.146 port 38674 [preauth]
+Aug 11 16:55:25 user-dev sshd[4137]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user2
+Aug 11 16:55:44 user-dev sshd[4140]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user3
+Aug 11 16:55:47 user-dev sshd[4140]: Failed password for user3 from 192.168.122.146 port 42836 ssh2
+Aug 11 16:55:54 user-dev sshd[4140]: message repeated 2 times: [ Failed password for user3 from 192.168.122.146 port 42836 ssh2]
+Aug 11 16:55:55 user-dev sshd[4140]: Connection closed by authenticating user user3 192.168.122.146 port 42836 [preauth]
+Aug 11 16:55:55 user-dev sshd[4140]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user3
+Aug 11 16:56:07 user-dev sshd[4143]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user4
+Aug 11 16:56:09 user-dev sshd[4143]: Failed password for user4 from 192.168.122.146 port 42678 ssh2
+Aug 11 16:56:19 user-dev sshd[4143]: message repeated 2 times: [ Failed password for user4 from 192.168.122.146 port 42678 ssh2]
+Aug 11 16:56:20 user-dev sshd[4143]: Connection closed by authenticating user user4 192.168.122.146 port 42678 [preauth]
+Aug 11 16:56:20 user-dev sshd[4143]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.122.146  user=user4
+Aug 11 16:59:16 user-dev su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=user rhost=  user=root
+Aug 11 16:59:19 user-dev su: FAILED SU (to root) user on pts/0
+Aug 11 16:59:22 user-dev su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=user rhost=  user=root
+Aug 11 16:59:24 user-dev su: FAILED SU (to root) user on pts/0
+Aug 11 16:59:27 user-dev su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=user rhost=  user=root
+Aug 11 16:59:30 user-dev su: FAILED SU (to root) user on pts/0
+Aug 11 16:59:33 user-dev su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=user rhost=  user=root
+Aug 11 16:59:35 user-dev su: FAILED SU (to root) user on pts/0
+Aug 11 16:59:38 user-dev su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=user rhost=  user=root
+Aug 11 16:59:41 user-dev su: FAILED SU (to root) user on pts/0
+Aug 11 16:59:45 user-dev su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=user rhost=  user=root
+Aug 11 16:59:46 user-dev su: FAILED SU (to root) user on pts/0
+Aug 11 16:59:50 user-dev su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=user rhost=  user=root
+Aug 11 16:59:53 user-dev su: FAILED SU (to root) user on pts/0
+Aug 11 16:59:57 user-dev su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=user rhost=  user=root
+Aug 11 16:59:59 user-dev su: FAILED SU (to root) user on pts/0
+Aug 11 17:00:03 user-dev su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=user rhost=  user=root
+Aug 11 17:00:05 user-dev su: FAILED SU (to root) user on pts/0
+Aug 11 17:00:09 user-dev su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=user rhost=  user=root
+Aug 11 17:00:11 user-dev su: FAILED SU (to root) user on pts/0
+Aug 11 17:00:14 user-dev su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=user rhost=  user=root
+Aug 11 17:00:17 user-dev su: FAILED SU (to root) user on pts/0
+Aug 11 17:00:45 user-dev su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=user rhost=  user=user2
+Aug 11 17:00:47 user-dev su: FAILED SU (to user2) user on pts/0
+Aug 11 17:00:53 user-dev su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=user rhost=  user=user3
+Aug 11 17:00:55 user-dev su: FAILED SU (to user3) user on pts/0
+Aug 11 17:01:00 user-dev su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=user rhost=  user=user4
+Aug 11 17:01:02 user-dev su: FAILED SU (to user4) user on pts/0
